@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+}
+
+#container{
+  height: 100px;
+  display: flex;
+  background-color: rgb(243, 242, 241);
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+h1{
+  font-size: 20pt;
+  line-height: 60px ;
+  margin-right: 40px;
+  
+}
+input,button{
+  margin: 10px 10px;
+  height: 50px;
+  font-size: 15pt;
+  
+}
+
+input{
+  width: 400px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 0 30px;
+}
+
+button{
+  background-color: rgb(91, 94, 94);
+  border:rgb(91, 94, 94) ;
+  color: white;
+  border-radius: 5px;
+  padding: 0 30px;
+}
+
+
+#results img{
+  height: 600px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 10px 5px;
+}
+
+#results{
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
